@@ -1,8 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+
+main {
+  background-color: white;
+
+  width: 736px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+main img {
+  width: 100%;
+  height: auto;
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center;
  }
- 
+
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
