@@ -51,6 +51,18 @@ main img {
 
 .preparation {
   background-color: hsl(330, 100%, 98%);
+
+  border-radius: 12px;
+
+  padding: 28px;
+}
+
+.preparation h2 {
+  margin-bottom: 16px;
+}
+
+.preparation li:not(:last-child) {
+  margin-bottom: 8px
 }
 
 .preparation h2,
