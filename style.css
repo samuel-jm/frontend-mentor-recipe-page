@@ -10,6 +10,7 @@
 
 body {
   background-color: hsl(30, 54%, 90%);
+  padding-top: 123px;
 }
 
 main {
@@ -55,19 +56,28 @@ main img {
   border-radius: 12px;
 
   padding: 28px;
+  margin-bottom: 32px;
 }
 
 .preparation h2 {
   margin-bottom: 16px;
 }
 
-.preparation li:not(:last-child) {
+li:not(:last-child) {
   margin-bottom: 8px
+}
+
+li {
+  padding-left: 8px;
 }
 
 .preparation h2,
 .preparation li::marker {
   color: hsl(332, 51%, 32%);
+}
+
+main h2 {
+  margin-bottom: 24px;
 }
 
 main h2,
@@ -80,7 +90,7 @@ li {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   width: 100%;
   bottom: 10px;
 }
