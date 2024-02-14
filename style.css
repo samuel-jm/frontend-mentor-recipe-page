@@ -1,6 +1,8 @@
 * {
   padding: 0;
   margin: 0;
+
+  box-sizing: border-box;
 }
 
 body {
@@ -13,18 +15,28 @@ main {
   width: 736px;
   margin: 0 auto;
   padding: 40px;
+
+  border-radius: 24px;
 }
 
 main img {
   width: 100%;
   height: auto;
+
+  border-radius: 12px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
 }
 
 .attribution { 
-    font-size: 11px; 
-    text-align: center;
- }
+  font-size: 11px; 
+  text-align: center;
+}
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+  color: hsl(228, 45%, 44%); 
 }
