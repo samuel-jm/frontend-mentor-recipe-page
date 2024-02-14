@@ -85,6 +85,11 @@ footer {
   bottom: 10px;
 }
 
+.seperator {
+  border: 1px solid hsl(30, 18%, 87%);
+  margin: 32px 0;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
