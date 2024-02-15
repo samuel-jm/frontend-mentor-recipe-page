@@ -73,6 +73,14 @@ li {
   padding-left: 16px;
 }
 
+li::marker {
+  font-weight: bold;
+}
+
+ul li::marker {
+  font-size: 14px;
+}
+
 .preparation h2,
 .preparation li::marker {
   color: hsl(332, 51%, 32%);
