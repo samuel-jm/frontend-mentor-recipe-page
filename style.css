@@ -102,7 +102,11 @@ li {
 footer {
   position: fixed;
   width: 100%;
-  bottom: 10px;
+  bottom: 0px;
+
+  height: 25px;
+
+  background-color: hsl(30, 54%, 90%);
 }
 
 .seperator {
@@ -122,6 +126,8 @@ footer {
 .attribution {
   font-size: 11px;
   text-align: center;
+
+  line-height: 25px;
 }
 
 .attribution a {
