@@ -61,6 +61,8 @@ main img {
 
 .preparation h2 {
   margin-bottom: 16px;
+  font-family: "Outfit";
+  font-size: 20px;
 }
 
 li:not(:last-child) {
@@ -78,6 +80,10 @@ li {
 
 main h2 {
   margin-bottom: 24px;
+
+  font-size: 28px;
+
+  font-family: "Young Serif";
 }
 
 main h2,
