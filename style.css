@@ -10,7 +10,7 @@
 
 body {
   background-color: hsl(30, 54%, 90%);
-  padding-top: 123px;
+  padding: 123px 0;
 }
 
 main {
@@ -81,12 +81,22 @@ main h2 {
 }
 
 main h2,
-li::marker {
+li::marker,
+.measurement {
   color: hsl(14, 45%, 36%);
 }
 
 li {
   margin-left: 23px;
+}
+
+.table {
+  display: grid;
+
+  margin-top: 24px;
+
+  gap: 12px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 footer {
@@ -98,6 +108,16 @@ footer {
 .seperator {
   border: 1px solid hsl(30, 18%, 87%);
   margin: 32px 0;
+}
+
+.table-seperator {
+  border: 1px solid hsl(30, 18%, 87%);
+  grid-column: span 2;
+}
+
+.measurement
+{
+  font-weight: 700;
 }
 
 .attribution {
