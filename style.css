@@ -10,7 +10,7 @@
 
 body {
   background-color: hsl(30, 54%, 90%);
-  padding: 123px 0;
+  padding-top: 123px;
 }
 
 main {
@@ -99,16 +99,6 @@ li {
   grid-template-columns: repeat(2, 1fr);
 }
 
-footer {
-  position: fixed;
-  width: 100%;
-  bottom: 0px;
-
-  height: 25px;
-
-  background-color: hsl(30, 54%, 90%);
-}
-
 .seperator {
   border: 1px solid hsl(30, 18%, 87%);
   margin: 32px 0;
@@ -127,7 +117,8 @@ footer {
   font-size: 11px;
   text-align: center;
 
-  line-height: 25px;
+  margin-top: 100px;
+  margin-bottom: 15px;
 }
 
 .attribution a {
