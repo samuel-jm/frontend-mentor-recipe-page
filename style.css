@@ -64,7 +64,7 @@ main img {
 }
 
 li:not(:last-child) {
-  margin-bottom: 8px
+  margin-bottom: 8px;
 }
 
 li {
@@ -115,8 +115,7 @@ footer {
   grid-column: span 2;
 }
 
-.measurement
-{
+.measurement {
   font-weight: 700;
 }
 
