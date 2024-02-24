@@ -1,5 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"); */
+
+@font-face {
+  font-display: swap;
+  font-family: "Young Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/fonts/young-serif/woff2/young-serif-v2-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/fonts/outfit/woff2/outfit-v11-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  src: url("assets/fonts/outfit/woff2/outfit-v11-latin-700.woff2") format("woff2")
+}
 
 * {
   padding: 0;
